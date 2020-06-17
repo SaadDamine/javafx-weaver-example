@@ -1,2 +1,3 @@
-# javafx-weaver-example
-Example repository for blog post about Spring Boot and JavaFX integration
+# javafx weaver example with Spring Security dep  Login 
+#using Spring data jpa and mysql  to manipulate database
+Example repository for Login using Spring Boot and Spring Security and JavaFX integration
