@@ -11,16 +11,5 @@ import org.springframework.stereotype.Component;
 @FxmlView("main-stage.fxml")
 public class MyController {
 
-    @FXML
-    private Label weatherLabel;
-    private WeatherService weatherService;
-
-    @Autowired
-    public MyController(WeatherService weatherService) {
-        this.weatherService = weatherService;
-    }
-
-    public void loadWeatherForecast(ActionEvent actionEvent) {
-        this.weatherLabel.setText(weatherService.getWeatherForecast());
-    }
+   
 }
