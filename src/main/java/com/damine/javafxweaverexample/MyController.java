@@ -1,4 +1,4 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.damine.javafxweaverexample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,5 +11,5 @@ import org.springframework.stereotype.Component;
 @FxmlView("main-stage.fxml")
 public class MyController {
 
-   
+
 }

@@ -1,4 +1,4 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.damine.javafxweaverexample;
 
 import javafx.application.Application;
 import javafx.application.Platform;
