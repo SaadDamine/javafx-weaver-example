@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.damine.javafxweaverexample.controllers.LoginController">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="606.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/bag.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutX="116.0" layoutY="80.0" prefHeight="240.0" prefWidth="378.0" style="-fx-background-color: #212121;">
+            <children>
+                <Label layoutX="88.0" layoutY="15.0" text="Login" textFill="WHITE">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Label>
+                <Label layoutX="160.0" layoutY="66.0" text="By damine" textFill="WHITE" />
+                <TextField fx:id="username" layoutX="47.0" layoutY="108.0" onAction="#login" prefHeight="25.0" prefWidth="297.0" promptText="username" style="-fx-background-radius: 30;" />
+                <PasswordField fx:id="password" layoutX="47.0" layoutY="158.0" prefHeight="25.0" prefWidth="297.0" promptText="password" style="-fx-background-radius: 30;" />
+                <Button layoutX="121.0" layoutY="201.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 40; -fx-background-color: #651fff;" text="Login" />
+                <ComboBox fx:id="role" layoutX="214.0" layoutY="28.0" prefHeight="25.0" prefWidth="139.0" promptText="Role" style="-fx-background-color: #00bfa5; -fx-background-radius: 45;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
